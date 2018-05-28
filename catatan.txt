@@ -1,0 +1,1 @@
+SELECT distinct nama_file,token,tokenstem FROM `dokumen` WHERE MATCH (token,tokenstem) AGAINST ('undang pangan' IN BOOLEAN MODE)
